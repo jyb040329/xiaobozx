@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>浪漫表白</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+    }
+
+  .container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+    }
+
+  .background-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('./2.jpg');
+      background-size: cover;
+      background-position: center;
+      z-index: -1;
+    }
+
+  .message-box {
+      position: absolute;
+      top: 60%;
+      left: 60%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+  .message-box h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+  .message-box p {
+      font-size: 18px;
+      line-height: 1.5;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="background-image"></div>
+    <div class="message-box">
+      <h1>亲爱的[对方名字]</h1>
+      <p>在这繁星闪烁的夜空下，我的心如同璀璨的星辰，只为你闪耀。</p >
+      <p>你的每一个眼神，每一次微笑，都深深烙印在我的心底。</p >
+      <p>我愿与你携手走过每一个日出日落，共同谱写属于我们的浪漫篇章。</p >
+      <p>我爱你，此爱永恒不渝。</p >
+    </div>
+  </div>
+</body>
+
+</html>
